@@ -11,8 +11,15 @@ import UIKit
 
 class myView: UIView {
     override func draw(_ rect: CGRect) {
-        let path = UIBezierPath(ovalIn: rect)
-        UIColor.red.setStroke()        
+        let path = UIBezierPath()
+        //三角形的三个顶点
+        path.move(to: CGPoint(x: 100, y: 10))
+        path.addLine(to: CGPoint(x: 190, y: 100))
+        path.addLine(to: CGPoint(x: 10, y: 100))
+        path.close()
+        //设置画图的颜色
+        UIColor.black.setStroke()
+        //画图
         path.stroke()
     }
 }
