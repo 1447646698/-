@@ -22,7 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.yellow
         //获取视图控制器
         let  nc = UINavigationController(rootViewController: ViewController())
-        window?.rootViewController = nc
+        let tc = UITabBarController()
+        tc.addChild(nc)
+        tc.addChild(SecondViewController())
+        tc.addChild(ThirdViewController())
+        
+        
+        window?.rootViewController = tc
+        
         //显示视图
         window?.makeKeyAndVisible()
         

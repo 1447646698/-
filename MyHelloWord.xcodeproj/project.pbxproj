@@ -13,6 +13,9 @@
 		3FD5A52C21A682C600AD4335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD5A52A21A682C600AD4335 /* LaunchScreen.storyboard */; };
 		3FD5A53721A682C600AD4335 /* MyHelloWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5A53621A682C600AD4335 /* MyHelloWordTests.swift */; };
 		3FD5A54221A682C600AD4335 /* MyHelloWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5A54121A682C600AD4335 /* MyHelloWordUITests.swift */; };
+		3FD5A55421A68FE600AD4335 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5A55321A68FE600AD4335 /* secondViewController.swift */; };
+		3FD5A55621A6924000AD4335 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5A55521A6924000AD4335 /* ThirdViewController.swift */; };
+		3FD5A55821A69E6600AD4335 /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5A55721A69E6600AD4335 /* myView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		3FD5A53D21A682C600AD4335 /* MyHelloWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHelloWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD5A54121A682C600AD4335 /* MyHelloWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHelloWordUITests.swift; sourceTree = "<group>"; };
 		3FD5A54321A682C600AD4335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD5A55321A68FE600AD4335 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		3FD5A55521A6924000AD4335 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3FD5A55721A69E6600AD4335 /* myView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				3FD5A52821A682C600AD4335 /* Assets.xcassets */,
 				3FD5A52A21A682C600AD4335 /* LaunchScreen.storyboard */,
 				3FD5A52D21A682C600AD4335 /* Info.plist */,
+				3FD5A55321A68FE600AD4335 /* secondViewController.swift */,
+				3FD5A55521A6924000AD4335 /* ThirdViewController.swift */,
+				3FD5A55721A69E6600AD4335 /* myView.swift */,
 			);
 			path = MyHelloWord;
 			sourceTree = "<group>";
@@ -253,6 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD5A52421A682C500AD4335 /* ViewController.swift in Sources */,
+				3FD5A55421A68FE600AD4335 /* secondViewController.swift in Sources */,
+				3FD5A55621A6924000AD4335 /* ThirdViewController.swift in Sources */,
+				3FD5A55821A69E6600AD4335 /* myView.swift in Sources */,
 				3FD5A52221A682C500AD4335 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
