@@ -20,6 +20,6 @@ class myView: UIView {
         //设置画图的颜色
         UIColor.black.setStroke()
         //画图
-        path.stroke()
+       
     }
 }
