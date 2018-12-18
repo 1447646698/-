@@ -112,6 +112,7 @@
 			);
 			path = MyHelloWord;
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		3FD5A53521A682C600AD4335 /* MyHelloWordTests */ = {
 			isa = PBXGroup;
